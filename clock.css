@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+}
+
+main {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#clock-img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 10% auto;
+    background-color: black;
+    box-shadow: 2px -2px 1000px 5px rgb(34, 109, 195);
+}
+
+.stick-center {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: relative;
+
+}
+
+#cir-1 {
+    top: 49%;
+    left: 50%;
+}
+
+#cir-2 {
+    top: 46%;
+    left: 50%;
+}
+
+#cir-3 {
+    top: 43%;
+    left: 50%;
+}
+
+.stick-center>div {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    z-index: -1;
+    position: absolute;
+}
+
+#stick1 {
+    background-color: white;
+    bottom: 25%;
+    left: 29%;
+    width: 8px;
+    height: 100px;
+}
+
+#stick2 {
+    background-color: white;
+    width: 5px;
+    height: 170px;
+    bottom: 10%;
+    left: 40%;
+}
+
+#stick3 {
+    bottom: 35%;
+    left: 50%;
+    width: 1px;
+    height: 200px;
+}
+
+span div {
+    position: relative;
+    font-size: 30px;
+}
+
+#num1 {
+    left: 75%;
+}
+
+#num2 {
+    top: 10%;
+    left: 89%;
+}
+
+#num3 {
+    top: 23%;
+    left: 93%;
+}
+
+#num4 {
+    top: 37%;
+    left: 86%;
+}
+
+#num5 {
+    top: 47%;
+    left: 71%;
+}
+
+#num6 {
+    top: 45%;
+    left: 48%;
+}
+
+#num7 {
+    top: 32%;
+    left: 24%;
+}
+
+#num8 {
+    top:6%;
+    left: 5%;
+}
+
+#num9 {
+    bottom: 23%;
+    left: 1%;
+}
+
+#num10 {
+    bottom: 53%;
+        left: 7%;
+}
+
+#num11 {
+    bottom: 78%;
+        left: 22%;
+}
+
+#num12 {
+    bottom: 93%;
+        left: 46.5%;
+}
+#show-date{
+    border: 5px solid white ;
+    border-top: 5px solid black;
+    padding: 2px;
+    width: 100px;
+    position: relative;
+    bottom: 52.5%;
+    left: 65%;
+    border-radius: 5px;
+}
